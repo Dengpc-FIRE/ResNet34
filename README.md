@@ -85,15 +85,3 @@ optimizer = optim.SGD(model.parameters(), lr=lr, momentum=0.9, weight_decay=5e-4
 #### 5 训练和测试代码
 
 完整的代码已上传至我的`github`
-注意：若要运行代码，需要在项目文件夹中创建名为checkpoint的文件夹，用于存放参数文件。
-预训练模型链接<br/>
-百度云盘：<br/>
-https://pan.baidu.com/s/1yKXWWf1UEXS_gsWnM6sFDA  提取码：z66g。<br/>
-Google云盘：<br/>
-https://drive.google.com/file/d/1AEYfIHDaNIZywkYKsiaNVpfr2hAJ1Fti/view?usp=drive_link
-
-#### 6 版本
-python == 3.6 <br/>
-torch == 1.10.2 <br/>
-torchvision == 0.11.3 <br/>
-numpy == 1.19.5 <br/>
